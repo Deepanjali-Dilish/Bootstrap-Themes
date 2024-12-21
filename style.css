@@ -439,6 +439,41 @@ P:last-child{
     font-weight: 400;
     line-height: 17.5px;
 } */
+ .footer-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .nav{
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.nav a{
+    text-decoration: none;
+}
+.footer-sub-nav li{
+    padding-right: .75rem;
+    padding-left: .75rem;
+}
+.footer-sub-nav li a{
+    font-size: 13px;
+    letter-spacing: -0.15px;
+    font-weight: 400;
+    line-height: 19.5px;
+    display: block;
+    color: #59626d;
+    padding: .5rem 0;
+}
+.footer-sub-nav{
+    display: flex;
+    justify-content: center;
+}
+.footer-sub-nav li:first-child{
+    padding-left: 0;
+}
 /*  */
 
 @media screen and (min-width: 768px) {
