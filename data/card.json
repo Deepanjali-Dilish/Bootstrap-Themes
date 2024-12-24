@@ -1,0 +1,10 @@
+{   "cards":[
+    {
+        "title": "FreshCart – Next Js eCommerce Website Template",
+        "images": ["img/caed.jpg", "img/card3.webp"],
+        "price": "$49.00",
+        "category": "E-Commerce & Retail",
+        "rating": 5
+    }
+    ]
+}    

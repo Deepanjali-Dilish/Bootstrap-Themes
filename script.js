@@ -1,4 +1,4 @@
- import data from "./data/categories.json";
+import data from "./data/categories.json" with {type: 'json'};
 
 
 const hamburger = document.querySelector(".hamber-burger");
@@ -8,11 +8,12 @@ const categoryListContainer = document.getElementById("catgories-list"); // Add 
 hamburger.addEventListener("click", () => {
   navbarCollapse.classList.toggle("show");
 });
+console.log(data);
 // Initial visibility state
 let showCategories = false;
-console.log(categories);
+const categoriesData = data
 // Populate the dropdown list
-data.forEach((category) => {
+categoriesData.categories.forEach((category) => {
   const categoryList = document.createElement("li");
   categoryList.textContent = category.value;
   categoriesDropdown.appendChild(categoryList);
@@ -28,3 +29,5 @@ categoryListContainer.addEventListener("click", () => {
     categoriesDropdown.classList.remove("show-items");
   }
 });
+
+// import data from "./data/card.json" with {type: 'json'};

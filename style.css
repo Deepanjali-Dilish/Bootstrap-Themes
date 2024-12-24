@@ -609,7 +609,7 @@ P:last-child{
     border: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: 0.25rem;
 }
-.navbar-nav .menu-top{
+.menu-top{
     position: static;
     float: none;
 }
@@ -637,6 +637,10 @@ P:last-child{
     width: 100%;
 }
 
+
+ /* json cards */
+
+/* */
 @media screen and (min-width: 576px){
     .container{
         max-width: 540px;
@@ -938,7 +942,13 @@ P:last-child{
     /* .container{
         max-width: 85%;
     } */
-
+    .navbar-expand #menu-top{
+        position: absolute;
+        top: 42px;
+    }
+    /* .main-header{
+        height: 56px;
+    }     */
     .nav-all{
         margin-right: 468.24px;
     }
