@@ -21,9 +21,9 @@
                     <input class="form-input" name="s" type="text" placeholder="Search">
                 </form>
                 <ul class="navbar-nav nav-all order-2">
-                    <li class="nav-item dropdown show">
+                    <li class="nav-item dropdown show" id="catgories-list">
                         <a class="nav-link drop" id="navbardropmenun"  data-toggle="dropdowm" aria-haspopup="true" aria-expanded="false">Categories</a>
-                       <div class="dropdown-menu show">
+                       <!-- <div class="dropdown-menu show">
                         <div class="navbar-collapse navbar-top-collapse">
                             <ul id="menu-top" class="nav navbar-nav">
                                 <li id="menus" class="menus-item">
@@ -40,7 +40,12 @@
                                 </li>
                             </ul>
                         </div>
-                       </div>
+                       </div> -->
+                       
+                            <div class="navbar-collapse navbar-top-collapse">
+                                <ul id="menu-top" class="hide-items"></ul>
+                            </div>
+                       
                     </li>
                     <li class="nav-item">
                         <a class="nav-link">Why Our Themes?</a>
@@ -772,7 +777,7 @@
             </div>
         </div>
     </footer>
-    <script src="script.js"></script>
+    <script type="module" src="./script.js"></script>
 </body>
 </html>
 
