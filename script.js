@@ -30,7 +30,7 @@ categoryListContainer.addEventListener("click", () => {
   }
 });
 
-import data from "./data/card.json" with {type: 'json'};
+import datas from "./data/card.json" with {type: 'json'};
 
 const cardsData = {
     "cards": [
@@ -43,6 +43,7 @@ const cardsData = {
         }
     ]
 };
+console.log(datas)
 function createCard(card) {
      const listItem = document.createElement('li');
      listItem.classList.add('cards-list');
