@@ -30,4 +30,61 @@ categoryListContainer.addEventListener("click", () => {
   }
 });
 
-// import data from "./data/card.json" with {type: 'json'};
+import data from "./data/card.json" with {type: 'json'};
+
+const cardsData = {
+    "cards": [
+        {
+            "title": "FreshCart – Next Js eCommerce Website Template",
+            "images": ["img/caed.jpg", "img/card3.webp"],
+            "price": "$49.00",
+            "category": "E-Commerce & Retail",
+            "rating": 5
+        }
+    ]
+};
+function createCard(card) {
+     const listItem = document.createElement('li');
+     listItem.classList.add('cards-list');
+
+    listItem.innerHTML = `
+        <div class="theme-card-body">
+            <div class="theme-card">
+                <a class="d-block" href="#"> 
+                    <img src="${card.images[0]}" class="card2">
+                    <img src="${card.images[1]}" class="card3">
+                </a>
+            </div>
+    
+            <div class="theme-card-footer">
+                <div class="theme-card-footer-item">
+                    <a class="card-title" href="#">${card.title}</a>
+                    <p class="theme-card-info"></p>
+                    <ul class="card-lists">
+                        <li><a href="#">${card.category}</a></li>
+                    </ul>
+                </div>
+    
+                <div class="theme-card-footer-item">
+                    <p class="theme-card-price">
+                        <span class="amount">
+                            <span class="symbol">${card.price}</span>
+                        </span>
+                    </p>
+                    <ul class="rating">
+                        ${Array(card.rating).fill('<li class="rating-item"></li>').join('')}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    `;
+
+    return listItem;
+}
+
+
+const container = document.querySelector('ul'); 
+cardsData.cards.forEach(card => {
+    const cardElement = createCard(card);
+    container.appendChild(cardElement);
+});
