@@ -32,18 +32,12 @@ categoryListContainer.addEventListener("click", () => {
 
 import datas from "./data/card.json" with {type: 'json'};
 
-const cardsData = {
-    "cards": [
-        {
-            "title": "FreshCart – Next Js eCommerce Website Template",
-            "images": ["img/caed.jpg", "img/card3.webp"],
-            "price": "$49.00",
-            "category": "E-Commerce & Retail",
-            "rating": 5
-        }
-    ]
-};
+
+
+const cardsData = datas
+    
 console.log(datas)
+
 function createCard(card) {
      const listItem = document.createElement('li');
      listItem.classList.add('cards-list');
@@ -55,6 +49,7 @@ function createCard(card) {
                     <img src="${card.images[0]}" class="card2">
                     <img src="${card.images[1]}" class="card3">
                 </a>
+                    <a class="theme-card-overlay btn btn-brand btn-sm">${card.overlayText}</a>
             </div>
     
             <div class="theme-card-footer">
@@ -72,20 +67,38 @@ function createCard(card) {
                             <span class="symbol">${card.price}</span>
                         </span>
                     </p>
-                    <ul class="rating">
-                        ${Array(card.rating).fill('<li class="rating-item"></li>').join('')}
-                    </ul>
+                    <ul class="rating"></ul>
                 </div>
             </div>
         </div>
     `;
+     
+    const ratingList = listItem.querySelector('.rating');
+    for (let i = 0; i < card.rating; i++) {
+        const ratingItem = document.createElement('li');
+        ratingItem.classList.add('rating-item');
+        ratingList.appendChild(ratingItem);
+    }
 
     return listItem;
 }
 
 
-const container = document.querySelector('ul'); 
+const container = document.querySelector('.cards'); 
 cardsData.cards.forEach(card => {
     const cardElement = createCard(card);
     container.appendChild(cardElement);
 });
+
+// console.log(container)
+
+// console.log(cardsData.cards)
+
+// document.addEventListener('DOMContentLoaded', () => {
+//     const container = document.querySelector('.cards'); 
+//     cardsData.cards.forEach(card => {
+//         const cardElement = createCard(card);
+//         container.appendChild(cardElement);
+//     });
+// });
+

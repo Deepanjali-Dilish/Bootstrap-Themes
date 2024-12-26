@@ -423,6 +423,25 @@ P:last-child{
     background: #7952b3;
     color: #fff;
 }
+.theme-card-overlay{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    opacity: 0;
+    visibility: hidden;
+}
+.btn-sm{
+    line-height: 1.5;
+    border-radius: 0.2rem;
+}
+/* a:hover, a:focus, a:visited{
+    outline: none;
+    outline-offset: 0;
+} */
+.theme-card-body:hover .theme-card-overlay{
+    opacity: 1;
+    visibility: visible;
+}
 .input:focus{
     outline: none;
 }
@@ -572,6 +591,7 @@ P:last-child{
 /* .navbar:not(.navbar-preview) .dropdown-toggle:after{
     content: none;
 } */
+
 .drop:after{
     font-family: "boot";
     content: '\e800';

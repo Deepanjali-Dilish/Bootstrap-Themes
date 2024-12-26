@@ -1,0 +1,33 @@
+{
+    "pagination": [
+      {
+        "type": "current",
+        "page": 1,
+        "isActive": true
+      },
+      {
+        "type": "page",
+        "page": 2,
+        "isActive": false
+      },
+      {
+        "type": "page",
+        "page": 3,
+        "isActive": false
+      },
+      {
+        "type": "dots",
+        "isActive": false
+      },
+      {
+        "type": "page",
+        "page": 6,
+        "isActive": false
+      },
+      {
+        "type": "next",
+        "isActive": false
+      }
+    ]
+  }
+  
