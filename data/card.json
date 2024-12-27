@@ -8,11 +8,123 @@
         "rating": 5
     },
     {
-        "title": "FreshCart – Next Js eCommerce Website Template",
-        "images": ["img/caed.jpg", "img/card3.webp"],
+        "title": "Dashbrd – Admin Dashboard Template",
+        "images": ["img/card2.webp", "img/card02.webp"],
         "overlayText":"Live Preview",
         "price": "$49.00",
-        "category": "E-Commerce & Retail",
+        "category": "Admin & Dashboard",
+        "rating": 5
+    },
+    {
+        "title": "Mizzle – Technology and Corporate Bootstrap Theme",
+        "images": ["img/card03.webp", "img/card33.webp"],
+        "overlayText": "Live Preview",
+        "price": "$49.00",
+        "category": "Landing & Corporate",
+        "rating": 5
+    },
+    {
+        "title" : "Block – Business / Professional HTML Template",
+        "images" : ["img/card4.webp", "img/card04.webp"],
+        "overlayText" : "Live Preview",
+        "price": "$49.00",
+        "category" : "Landing & Corporate",
+        "rating" : 5
+    },
+    {
+        "title": "Themebau – Portfolio & Agency Template [React]",
+        "images": ["img/card5.webp", "img/card05.webp"],
+        "overlayText": "Live Preview",
+        "price": "$49.00",
+        "category" : "Portfolio & Blog",
+        "rating" : 5
+    },
+    {
+        "title" : "Satoshi – Web3 and Finance Dashboard Theme",
+        "images" : ["img/card6.webp", "img/card06.webp"],
+        "overlayText": "Live Preview",
+        "price": "$49.00",
+        "category" : "Admin & Dashboard",
+        "rating": 5
+    },
+    {
+        "title": "Phoenix – Admin Dashboard & WebApp Template[React]",
+        "images" : ["img/card7.webp", "img/card07.webp"],
+        "overlayText": "Live Preview",
+        "price": "$49.00",
+        "category": "Admin & Dashboard",
+        "rating": 5
+    },
+    {
+        "title": "Phoenix – Admin Dashboard & WebApp Template[React]",
+        "images": ["img/card8.webp", "img/card08.webp"],
+        "overlayText": "Live Preview",
+        "price": "$39.00",
+        "category": "Admin & Dashboard",
+        "rating": 5
+    },
+    {
+        "title" : "Booking – Multipurpose Booking and Directory Theme",
+        "images": ["img/card9.webp", "img/card09.webp"],
+        "overlayText" : "Live Preview",
+        "price": "$49.00",
+        "category":"E-Commerce & Retail",
+        "rating": 5
+    },
+    {
+        "title": "Dashly – Admin & Dashboard Template (Dark/Light)",
+        "images": ["img/card10.webp", "img/card110.webp"],
+        "overlayText": "Live Preview",
+        "price": "$49.00",
+        "category": "Admin & Dashboard",
+        "rating": 5
+    },
+    {
+        "title": "FreshCart – eCommerce HTML Template",
+        "images": ["img/card11.webp", "img/card111.webp"],
+        "overlayText": "Live Preview",
+        "price": "$49.00",
+        "category" : "E-Commerce & Retail",
+        "ratin": 5
+    },
+    {
+        "title": "Startbox — Multipurpose Corporate Template",
+        "images": ["img/card12.webp", "img/card112.webp"],
+        "overlayText": "Live Preview",
+        "price": "$49.00",
+        "category": "Landing & Corporate",
+        "rating": 5
+    },
+    {
+        "title": "Social – Network, Community and Event Theme",
+        "images": ["img/card13.webp", "img/card113.webp"],
+        "overlayText": "Liev Preview",
+        "price": "$49.00",
+        "category": "Application",
+        "rating": 5
+    },
+    {
+        "title": "Finder – Directory & Listings Template [React]",
+        "images": ["img/card14.webp", "img/card114.webp"],
+        "overlayText": "Live Preview",
+        "price": "$49.00",
+        "category":"E-Commerce & Retail",
+        "rating": 5
+    },
+    {
+        "title": "Good – React Bootstrap 5 Admin Dashboard Template",
+        "images": ["img/card15.wepb", "img/card115.webp"],
+        "overlayText": "Live Preview",
+        "price": "$49.00",
+        "category": "Admin & Dashboard",
+        "rating": 5
+    },
+    {
+        "title": "Clever – Admin Dashboard Template",
+        "images": ["img/card16.wepb", "img/card116.webp"],
+        "overlayText": "Live Preview",
+        "price": "$49.00",
+        "category": "Admin & Dashboard",
         "rating": 5
     }
     ]

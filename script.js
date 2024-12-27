@@ -1,24 +1,24 @@
-import data from "./data/categories.json" with {type: 'json'};
+import data1 from "./data/categories.json" with {type: 'json'};
 
 
 const hamburger = document.querySelector(".hamber-burger");
 const navbarCollapse = document.querySelector(".collapse");
 const categoriesDropdown = document.getElementById("menu-top");
-const categoryListContainer = document.getElementById("catgories-list"); // Add this for container selection
+const categoryListContainer = document.getElementById("catgories-list"); 
 hamburger.addEventListener("click", () => {
   navbarCollapse.classList.toggle("show");
 });
-console.log(data);
-// Initial visibility state
+console.log(data1);
+
 let showCategories = false;
-const categoriesData = data
-// Populate the dropdown list
+const categoriesData = data1
+
 categoriesData.categories.forEach((category) => {
   const categoryList = document.createElement("li");
   categoryList.textContent = category.value;
   categoriesDropdown.appendChild(categoryList);
 });
-// Toggle dropdown visibility
+
 categoryListContainer.addEventListener("click", () => {
   showCategories = !showCategories;
   if (showCategories) {
@@ -30,19 +30,20 @@ categoryListContainer.addEventListener("click", () => {
   }
 });
 
-import datas from "./data/card.json" with {type: 'json'};
 
+// cards
 
+import data2 from "./data/card.json" with {type: 'json'};
 
-const cardsData = datas
+const cardsData = data2
     
-console.log(datas)
+console.log(data2)
 
 function createCard(card) {
-     const listItem = document.createElement('li');
-     listItem.classList.add('cards-list');
+     const listItems = document.createElement('li');
+     listItems.classList.add('cards-list');
 
-    listItem.innerHTML = `
+    listItems.innerHTML = `
         <div class="theme-card-body">
             <div class="theme-card">
                 <a class="d-block" href="#"> 
@@ -73,16 +74,15 @@ function createCard(card) {
         </div>
     `;
      
-    const ratingList = listItem.querySelector('.rating');
+    const ratingList = listItems.querySelector('.rating');
     for (let i = 0; i < card.rating; i++) {
         const ratingItem = document.createElement('li');
         ratingItem.classList.add('rating-item');
         ratingList.appendChild(ratingItem);
     }
 
-    return listItem;
+    return listItems;
 }
-
 
 const container = document.querySelector('.cards'); 
 cardsData.cards.forEach(card => {
@@ -90,15 +90,8 @@ cardsData.cards.forEach(card => {
     container.appendChild(cardElement);
 });
 
-// console.log(container)
 
-// console.log(cardsData.cards)
 
-// document.addEventListener('DOMContentLoaded', () => {
-//     const container = document.querySelector('.cards'); 
-//     cardsData.cards.forEach(card => {
-//         const cardElement = createCard(card);
-//         container.appendChild(cardElement);
-//     });
-// });
+
+
 
