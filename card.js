@@ -7,9 +7,9 @@ console.log(data3)
   
 function renderCards(option) {
     const container = document.querySelector('.cards');
-    container.innerHTML = ""; // Clear the container
+    container.innerHTML = ""; 
   
-    // Ensure the selected data exists
+    
     if (!data.sortOptions[option]) {
       console.error(`Invalid option "${option}"`);
       return;
@@ -18,10 +18,9 @@ function renderCards(option) {
     const selectedData = data.sortOptions[option];
   
     selectedData.forEach(item => {
-      const listItems = document.createElement('li'); // Create an <li> element
-      listItems.classList.add('cards-list'); // Add the class
-  
-      // Create the card content
+      const listItems = document.createElement('li');
+      listItems.classList.add('cards-list');
+      
       listItems.innerHTML = `
         <div class="theme-card-body">
             <div class="theme-card">
@@ -54,34 +53,34 @@ function renderCards(option) {
   
       const ratingList = listItems.querySelector('.rating');
     
-      // Loop through 5 rating positions
+      
       for (let i = 0; i < 5; i++) {
           const ratingItem = document.createElement('li');
           ratingItem.classList.add('rating-item');
           
-          // Check if current position (i) is less than the card's rating
+          
           if (i < item.rating) {
-              ratingItem.classList.add('rating-item-active'); // Make the rating active
+              ratingItem.classList.add('rating-item-active'); 
           }
           
           ratingList.appendChild(ratingItem);
       }
   
 
-      // Append the <li> to the <ul>
+      
       container.appendChild(listItems);
     });
   }
   
-  // Event listener for the dropdown
   document.querySelector('.sort select').addEventListener("change", (event) => {
     const selectedOption = event.target.value;
     renderCards(selectedOption);
   });
   
-  // Initial render for the default option
+  
   renderCards("date");
   
 
 
 
+// 
