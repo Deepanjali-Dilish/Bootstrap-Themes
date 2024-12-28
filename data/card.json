@@ -1,11 +1,11 @@
 {   "cards":[
     {
         "title": "FreshCart – Next Js eCommerce Website Template",
-        "images": ["img/caed.jpg", "img/card3.webp"],
+        "images": ["img/new/caed.jpg", "img/new/card3.webp"],
         "overlayText" : "Live Preview",
         "price": "$49.00",
         "category": "E-Commerce & Retail",
-        "rating": 5
+        "rating": 0
     },
     {
         "title": "Dashbrd – Admin Dashboard Template",
@@ -13,7 +13,7 @@
         "overlayText":"Live Preview",
         "price": "$49.00",
         "category": "Admin & Dashboard",
-        "rating": 5
+        "rating": 4
     },
     {
         "title": "Mizzle – Technology and Corporate Bootstrap Theme",

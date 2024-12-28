@@ -75,11 +75,20 @@ function createCard(card) {
     `;
      
     const ratingList = listItems.querySelector('.rating');
-    for (let i = 0; i < card.rating; i++) {
+    
+    // Loop through 5 rating positions
+    for (let i = 0; i < 5; i++) {
         const ratingItem = document.createElement('li');
         ratingItem.classList.add('rating-item');
+        
+        // Check if current position (i) is less than the card's rating
+        if (i < card.rating) {
+            ratingItem.classList.add('rating-item-active'); // Make the rating active
+        }
+        
         ratingList.appendChild(ratingItem);
     }
+
 
     return listItems;
 }
@@ -89,9 +98,6 @@ cardsData.cards.forEach(card => {
     const cardElement = createCard(card);
     container.appendChild(cardElement);
 });
-
-
-
 
 
 
