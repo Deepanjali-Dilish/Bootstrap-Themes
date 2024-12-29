@@ -1,0 +1,333 @@
+{
+  "sortOptions": {
+    "newness": [
+      {
+        "title": "FreshCart – Next Js eCommerce Website Template",
+        "images": ["img/new/caed.jpg", "img/new/card3.webp"],
+        "overlayText" : "Live Preview",
+        "price": "$49.00",
+        "category": "E-Commerce & Retail",
+        "rating": 0
+    },
+    {
+        "title": "Dashbrd – Admin Dashboard Template",
+        "images": ["img/new/card2.webp", "img/new/card02.webp"],
+        "overlayText":"Live Preview",
+        "price": "$49.00",
+        "category": "Admin & Dashboard",
+        "rating": 0
+    },
+    {
+        "title": "Mizzle – Technology and Corporate Bootstrap Theme",
+        "images": ["img/new/card03.webp", "img/new/card33.webp"],
+        "overlayText": "Live Preview",
+        "price": "$49.00",
+        "category": "Landing & Corporate",
+        "rating": 5
+    },
+    {
+        "title" : "Block – Business / Professional HTML Template",
+        "images" : ["img/new/card4.webp", "img/new/card04.webp"],
+        "overlayText" : "Live Preview",
+        "price": "$49.00",
+        "category" : "Landing & Corporate",
+        "rating" : 5
+    },
+    {
+        "title": "Themebau – Portfolio & Agency Template [React]",
+        "images": ["img/new/card5.webp", "img/new/card05.webp"],
+        "overlayText": "Live Preview",
+        "price": "$49.00",
+        "category" : "Portfolio & Blog",
+        "rating" : 4
+    },
+    {
+        "title" : "Satoshi – Web3 and Finance Dashboard Theme",
+        "images" : ["img/new/card6.webp", "img/new/card06.webp"],
+        "overlayText": "Live Preview",
+        "price": "$49.00",
+        "category" : "Admin & Dashboard",
+        "rating": 1
+    },
+    {
+        "title": "Phoenix – Admin Dashboard & WebApp Template[React]",
+        "images" : ["img/new/card7.webp", "img/new/card07.webp"],
+        "overlayText": "Live Preview",
+        "price": "$49.00",
+        "category": "Admin & Dashboard",
+        "rating": 5
+    },
+    {
+        "title": "Phoenix – Admin Dashboard & WebApp Template[React]",
+        "images": ["img/new/card8.webp", "img/new/card08.webp"],
+        "overlayText": "Live Preview",
+        "price": "$39.00",
+        "category": "Admin & Dashboard",
+        "rating": 5
+    },
+    {
+        "title" : "Booking – Multipurpose Booking and Directory Theme",
+        "images": ["img/new/card9.webp", "img/new/card09.webp"],
+        "overlayText" : "Live Preview",
+        "price": "$49.00",
+        "category":"E-Commerce & Retail",
+        "rating": 5
+    },
+    {
+        "title": "Dashly – Admin & Dashboard Template (Dark/Light)",
+        "images": ["img/new/card10.webp", "img/new/card110.webp"],
+        "overlayText": "Live Preview",
+        "price": "$49.00",
+        "category": "Admin & Dashboard",
+        "rating": 5
+    },
+    {
+        "title": "FreshCart – eCommerce HTML Template",
+        "images": ["img/new/card11.webp", "img/new/card111.webp"],
+        "overlayText": "Live Preview",
+        "price": "$49.00",
+        "category" : "E-Commerce & Retail",
+        "ratin": 5
+    },
+    {
+        "title": "Startbox — Multipurpose Corporate Template",
+        "images": ["img/new/card12.webp", "img/new/card112.webp"],
+        "overlayText": "Live Preview",
+        "price": "$49.00",
+        "category": "Landing & Corporate",
+        "rating": 0
+    },
+    {
+        "title": "Social – Network, Community and Event Theme",
+        "images": ["img/new/card13.webp", "img/new/card113.webp"],
+        "overlayText": "Liev Preview",
+        "price": "$49.00",
+        "category": "Application",
+        "rating": 5
+    },
+    {
+        "title": "Finder – Directory & Listings Template [React]",
+        "images": ["img/new/card14.webp", "img/new/card114.webp"],
+        "overlayText": "Live Preview",
+        "price": "$49.00",
+        "category":"E-Commerce & Retail",
+        "rating": 5
+    },
+    {
+      "title": "Good – React Bootstrap 5 Admin Dashboard Template",
+      "images": ["img/new/card15.webp", "img/new/card115.webp"],
+      "overlayText": "Liev Preview",
+      "price": "$49.00",
+      "category": "Admin & Dashboard",
+      "rating": 1
+  },
+  {
+      "title": "Clever – Admin Dashboard Template",
+      "images": ["img/new/card16.webp", "img/new/card116.webp"],
+      "overlayText": "Live Preview",
+      "price": "$49.00",
+      "category":"Admin & Dashboard",
+      "rating": 2
+  }
+    
+    ],
+    "popularity": [
+      {
+        "title": "Phoenix – Admin Dashboard & WebApp Template",
+        "images": ["img/pop/pop-01.webp", "img/pop/pop-1.webp"],
+        "overlayText": "Live Preview",
+        "price": "$39.00",
+        "category": "Admin & Dashboard",
+        "rating": 5
+    },
+    {
+        "title": "Falcon – Admin Dashboard & WebApp Template",
+        "images": ["img/pop/pop-02.webp", "img/pop/pop-2.webp"],
+        "overlayText": "Live Preview",
+        "price": "$49.00",
+        "category": "Admin & Dashboard",
+        "rating": 5
+    },
+    {
+        "title": "Keen – Multi Demo Bootstrap Admin Dashboard Theme",
+        "images": ["img/pop/pop-03.webp", "img/pop/pop-3.webp"],
+        "overlayText": "Live Preview",
+        "price": "$49.00",
+        "category": "Admin & Dashboard",
+        "rating": 5
+    },
+    {
+        "title": "Silicon – Business / Technology Template + UI Kit",
+        "images": ["img/pop/pop-04.webp", "img/pop/pop-4.webp"],
+        "overlayText": "Live Preview",
+        "price": "$49.00",
+        "category": "Landing & Corporate",
+        "rating": 5
+    },
+    {
+        "title": "Phoenix – Admin Dashboard & WebApp Template[React]",
+        "images": ["img/pop/pop-05.webp", "img/pop/pop-5.webp"],
+        "overlayText": "Live Preview",
+        "price": "$49.00",
+        "category": "Admin & Dashboard",
+        "rating": 5
+    },
+    {
+        "title": "Cartzilla – Multipurpose E-Commerce Template",
+        "images": ["img/pop/pop-06.webp", "img/pop/pop-6.webp"],
+        "overlayText": "Live Preview",
+        "price": "$49.00",
+        "category": "E-Commerce & Retail",
+        "rating": 5
+    },
+    {
+        "title": "Mizzle – Technology and Corporate Bootstrap Theme",
+        "images": ["img/pop/pop-07.webp", "img/pop/pop-7.webp"],
+        "overlayText": "Live Preview",
+        "price": "$49.00",
+        "category": "Landing & Corporate",
+        "rating": 5
+    },
+    {
+        "title": "Block – Business / Professional HTML Template",
+        "images": ["img/pop/pop-08.webp", "img/pop/pop-8.webp" ],
+        "overlayText": "Live Preview",
+        "price": "$49.00",
+        "category": "Landing & Corporate",
+        "rating": 5
+    },
+    {
+        "title": "Booking – Multipurpose Booking and Directory Theme",
+        "images": ["img/pop/pop-09.webp", "img/pop/pop-9.webp" ],
+        "overlayText": "Live Preview",
+        "price": "$49.00",
+        "category": "E-Commerce & Retail",
+        "rating": 5
+    },
+    {
+        "title": "Finder – Directory & Listings Template + UI Kit",
+        "images": ["img/pop/pop-010.webp", "img/pop/pop-10.webp"],
+        "overlayText" : "Live Preview",
+        "price": "$49.00",
+        "category": "Landing & Corporate",
+        "rating": 5
+    },
+    {
+        "title": "Hyper React – Admin & Dashboard Template + Next.js",
+        "images": ["img/pop/pop-011.webp", "img/pop/pop-11.webp"],
+        "overlayText": "Live Preview",
+        "price": "$49.00",
+        "category": "Admin & Dashboard",
+        "rating": 5
+    },
+    {
+        "title": "Falcon – Admin Dashboard & WebApp Template [React]",
+        "images": ["img/pop/pop-012.webp", "img/pop/pop-12.webp"],
+        "overlayText": "Live Preview",
+        "price": "$49.00",
+        "category":"Admin & Dashboard",
+        "rating": 5
+    },
+    {
+        "title" : "Cube – Multipurpose Template + UI Kit",
+        "images" : ["img/pop/pop-013.webp", "img/pop/pop-13.webp"],
+        "overlayText":"Live Preview",
+        "price": "$49.00",
+        "category": "Landing & Corporate",
+        "rating": 4
+    },
+    {
+        "title": "Black Dashboard PRO – Premium Bootstrap 4 Admin",
+        "images": ["img/pop/pop-014.webp", "img/pop/pop-14.webp"],
+        "overlayText": "Live Preview",
+        "price": "$49.00",
+        "category":"Admin & Dashboard",
+        "rating": 4
+    },
+    {
+        "title" : "Landkit – Multipurpose Template + UI Kit",
+        "images": ["img/pop/pop-015.webp", "img/pop/pop-15.webp"],
+        "overlayText": "Live Preview",
+        "price": "$49.00",
+        "category": "Landing & Corporate",
+        "rating": 5
+    },
+    {
+        "title": "Coach – Coaching Business HTML Template",
+        "images": ["img/pop/pop-016.webp", "img/pop/pop-16.webp"],
+        "overlayText":"Live Preview",
+        "price": "$49.00",
+        "category": "Specialty",
+        "rating": 5
+    }
+    ],
+
+    "rating" : [
+        {
+            "title" : "Mizzle – Technology and Corporate Bootstrap Theme",
+            "images": ["img/rate/rate-01.webp", "img/rate/rate-1.webp"],
+            "overlayText": "Live Preview",
+            "price": "$49.00",
+            "category": "Landing & Corporate",
+            "rating": 5
+        },
+        {
+            "title": "Block – Business / Professional HTML Template",
+            "images": ["img/rate/rate-02.webp", "img/rate/rate-2.webp"],
+            "overlayText": "Live Preview",
+            "price": "$49.00",
+            "category":"Landing & Corporate",
+            "rating" : 5
+        },
+        {
+            "title": "Phoenix – Admin Dashboard & WebApp Template[React]",
+            "images": ["img/rate/rate-03.webp", "img/rate/rate-3.webp"],
+            "overlayText": "Live Preview",
+            "price": "$49.00",
+            "category": "Admin & Dashboard",
+            "rating": 5
+        },
+        {
+            "title": "Phoenix – Admin Dashboard & WebApp Template",
+            "images": ["img/rate/rate-04.webp", "img/rate/rate-4.webp"],
+            "overlayText": "Live Preview",
+            "price": "$39.00",
+            "category": "Admin & Dashboard",
+            "rating": 5
+        },
+        {
+            "title" : "Booking – Multipurpose Booking and Directory Theme",
+            "images": ["img/rate/rate-05.webp", "img/rate/rate-5.webp"],
+            "overlayText": "Live Preview",
+            "price": "$49.00",
+            "category": "E-Commerce & Retail",
+            "rating" : 5
+        },
+        {
+            "title" : "Dashly – Admin & Dashboard Template (Dark/Light)",
+            "images": ["img/rate/rate-06.webp", "img/rate/rate-6.webp"],
+            "overlayText": "Live Preview",
+            "price": "$49.00",
+            "category": "Admin & Dashboard",
+            "rating": 5
+        },
+        {
+            "title": "FreshCart – eCommerce HTML Template",
+            "images": ["img/rate/rate-07.webp", "img/rate/rate-7.webp"],
+            "overlayText": "Live Preview",
+            "price": "$49.00",
+            "category": "E-Commerce & Retail",
+            "rating": 5
+        },
+        {
+            "title": "Finder – Directory & Listings Template [React]",
+            "images": ["img/rate/rate-08.webp", "img/rate/rate-8.webp"],
+            "overlayText":"Live Preview",
+            "price": "$49.00",
+            "category": "E-Commerce & Retail",
+            "rating": 5
+        }
+    ]
+    
+  }
+}

@@ -33,71 +33,78 @@ categoryListContainer.addEventListener("click", () => {
 
 // cards
 
-import data2 from "./data/card.json" with {type: 'json'};
+import data2 from "./data/cards.json" with{type: 'json'}
 
-const cardsData = data2
-    
+const data = data2
 console.log(data2)
+  
+function cards(option) {
 
-function createCard(card) {
-     const listItems = document.createElement('li');
-     listItems.classList.add('cards-list');
-
-    listItems.innerHTML = `
+    const container = document.querySelector('.cards');
+    container.innerHTML = ""; 
+  
+    if (!data.sortOptions[option]) {
+      console.error(`Invalid option "${option}"`);
+      return;
+    }
+  
+    const selectedData = data.sortOptions[option];
+  
+    selectedData.forEach(item => {
+      const listItems = document.createElement('li');
+      listItems.classList.add('cards-list');
+      
+      listItems.innerHTML = `
         <div class="theme-card-body">
             <div class="theme-card">
                 <a class="d-block" href="#"> 
-                    <img src="${card.images[0]}" class="card2">
-                    <img src="${card.images[1]}" class="card3">
+                    <img src="${item.images[0]}" class="card2">
+                    <img src="${item.images[1]}" class="card3">
                 </a>
-                    <a class="theme-card-overlay btn btn-brand btn-sm">${card.overlayText}</a>
+                 <a class="theme-card-overlay btn btn-brand btn-sm">${item.overlayText}</a>
             </div>
-    
+  
             <div class="theme-card-footer">
                 <div class="theme-card-footer-item">
-                    <a class="card-title" href="#">${card.title}</a>
-                    <p class="theme-card-info"></p>
+                    <a class="card-title" href="#">${item.title}</a>
                     <ul class="card-lists">
-                        <li><a href="#">${card.category}</a></li>
+                        <li><a href="#">${item.category}</a></li>
                     </ul>
                 </div>
-    
+  
                 <div class="theme-card-footer-item">
                     <p class="theme-card-price">
                         <span class="amount">
-                            <span class="symbol">${card.price}</span>
+                            <span class="symbol">${item.price}</span>
                         </span>
                     </p>
                     <ul class="rating"></ul>
                 </div>
             </div>
-        </div>
-    `;
-     
-    const ratingList = listItems.querySelector('.rating');
-    
-    // Loop through 5 rating positions
-    for (let i = 0; i < 5; i++) {
-        const ratingItem = document.createElement('li');
-        ratingItem.classList.add('rating-item');
-        
-        // Check if current position (i) is less than the card's rating
-        if (i < card.rating) {
-            ratingItem.classList.add('rating-item-active'); // Make the rating active
+        </div>`;
+  
+      const ratingList = listItems.querySelector('.rating');
+      
+        for (let i = 0; i < 5; i++) {
+          const ratingItem = document.createElement('li');
+          ratingItem.classList.add('rating-item');
+          
+          
+          if (i < item.rating) {
+              ratingItem.classList.add('rating-item-active'); 
+          }
+          
+          ratingList.appendChild(ratingItem);
         }
         
-        ratingList.appendChild(ratingItem);
-    }
-
-
-    return listItems;
-}
-
-const container = document.querySelector('.cards'); 
-cardsData.cards.forEach(card => {
-    const cardElement = createCard(card);
-    container.appendChild(cardElement);
-});
-
-
-
+        container.appendChild(listItems);
+    });
+  }
+  
+  document.querySelector('.sort').addEventListener("change", (event) => {
+    const selectedOption = event.target.value;
+    cards(selectedOption);
+  });
+  
+  cards("newness");
+  
