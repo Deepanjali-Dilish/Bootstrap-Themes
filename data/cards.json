@@ -326,7 +326,72 @@
             "price": "$49.00",
             "category": "E-Commerce & Retail",
             "rating": 5
+        },
+        {
+            "title": "Social – Network, Community and Event Theme",
+            "images": ["img/rate/rate-09.webp", "img/rate/rate-9.webp"],
+            "overlayText": "Live Preview",
+            "price": "$49.00",
+            "category": "Application",
+            "rating": 5
+        },
+        {
+            "title": "Geeks Next js Admin Dashboard Template [React]",
+            "images": ["img/rate/rate-010.webp", "img/rate/rate-10.webp"],
+            "overlayText": "Live Preview",
+            "price": "$49.00",
+            "category": "Application",
+            "rating": 5
+        },
+        {
+            "title": "Eduport – LMS, Education and Course Theme",
+            "images": ["img/rate/rate-011.webp", "img/rate/rate-11.webp"],
+            "overlayText": "Live Preview",
+            "price": "$49.00",
+            "category": "Application",
+            "rating": 5
+        },
+        {
+            "title": "Dashkit – Admin & Dashboard Template [React]",
+            "images": ["img/rate/rate-012.webp","img/rate/rate-12.webp"],
+            "overlayText": "Live Preview",
+            "price": "$49.00",
+            "category": "Admin & Dashboard",
+            "rating": 5
+        },
+        {
+            "title": "Bubbly – CMS & Dashboard Next.js Theme [React]",
+            "images": ["img/rate/rate-013.webp", "img/rate/rate-13.webp"],
+            "overlayText": "Live Preview",
+            "price": "$39.00",
+            "category": "Admin & Dashboard",
+            "rating": 5
+        },
+        {
+            "title": "Finder – Directory & Listings Template + UI Kit",
+            "images": ["img/rate/rate-014.webp", "img/rate/rate-14.webp"],
+            "overlayText": "Live Preview",
+            "price": "$49.00",
+            "category": "E-Commerce & Retail",
+            "rating": 5
+        },
+        {
+            "title" : "Soft UI Design System Pro",
+            "images": ["img/rate/rate-015.webp", "img/rate/rate-15.webp"],
+            "overlayText": "Live Preview",
+            "price": "$79.00",
+            "category": "Landing & Corporate",
+            "rating": 5
+        },
+        {
+            "title": "Craft – Bootstrap 5 Admin Dashboard Template",
+            "images": ["img/rate/rate-016.webp", "img/rate/rate-16.webp"],
+            "overlayText": "Live Preview",
+            "price":"$49.00",
+            "category": "Admin & Dashboard",
+            "rating": 5
         }
+
     ]
     
   }
