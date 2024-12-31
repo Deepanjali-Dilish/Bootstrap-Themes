@@ -688,6 +688,13 @@ P:last-child{
     cursor: pointer;
 }
 
+.nav-light .navbar-nav .show-items > .nav-link{
+    color: rgba(0,0,0,0.7);
+}
+
+/* .nav-light .navbar-nav .nav-link:hover{
+    color: rgba(0,0,0,0.7);
+}  */
 .nav-link:hover{
     color: rgba(0, 0, 0, 0.7);
 }
@@ -696,11 +703,15 @@ P:last-child{
 }
 #menu-top li:hover{
    color: rgba(0, 0, 0, 0.7);
+} 
+/* .nav-link.drop{
+    color: rgba(0, 0, 0, 0.7);
 }
  /* json cards */
 
+ 
 
-/*ffff */
+/*f*/
 @media screen and (min-width: 576px){
     .container{
         max-width: 540px;

@@ -391,8 +391,137 @@
             "category": "Admin & Dashboard",
             "rating": 5
         }
+    ],
 
+    "price-low" : [
+
+        {
+            "title": "Wingman Landing Page & App Template",
+            "images": ["img/high/high-01.webp", "img/high/high-1.webp"],
+            "overlayText": "Live Preview",
+            "price": "$39.00",
+            "category": "Landing & Corporate",
+            "rating": 4
+        },
+        {
+            "title" : "Pipeline Project Management Application",
+            "images": ["img/high/high-02.webp", "img/high/high-2.webp"],
+            "overlayText": "Live Preview",
+            "price": "$39.00",
+            "category": "Application",
+            "rating": 4
+        },
+        {
+            "title": "Sell – Bootstrap 5 e-commerce template",
+            "images": ["img/high/high-03.webp", "img/high/high-3.webp"],
+            "overlayText": "Live Preview",
+            "price" : "$39.00",
+            "category" : "E-Commerce & Retail",
+            "rating" : 5
+        },
+        {
+            "title": "GO – Multipurpose Bootstrap Template",
+            "images" : ["img/high/high-04.webp", "img/high/high-4.webp"],
+            "overlayText": "Live Preview",
+            "price": "$39.00",
+            "category": "Landing & Corporate",
+            "rating": 5
+        },
+        {
+            "title" : "Insight – Multipurpose Business Template",
+            "images": ["img/high/high-05.webp", "img/high/high-5.webp"],
+            "overlayText": "Live Preview",
+            "price":"$39.00",
+            "category":"Landing & Corporate",
+            "rating": 5
+        },
+        {
+            "title": "Leap – Multipurpose Template + UI Kit",
+            "images": ["img/high/high-06.webp", "img/high/high-6.webp"],
+            "overlayText": "Live Preview",
+            "price": "$39.00",
+            "category": "Landing & Corporate",
+            "rating": 4
+        },
+        {
+            "title": "Varkala – E-commerce theme",
+            "images": ["img/high/high-07.webp", "img/high/high-7.webp"],
+            "overlayText": "Live Preview",
+            "price": "$39.00",
+            "category": "E-Commerce & Retail",
+            "rating": 5
+        },
+        {
+            "title": "Profi – Bootstrap Landing Pages for Small Business",
+            "images": ["img/high/high-08.webp", "img/high/high-8.webp"],
+            "overlayText": "Live Preview",
+            "price": "$39.00",
+            "category": "Landing & Corporate",
+            "rating": 4
+        },
+        {
+            "title": "Shopy – Minimal eCommerce Bootstrap Template",
+            "images": ["img/high/high-09.webp", "img/high/high-9.webp"],
+            "overlayText": "Live Preview",
+            "price": "$39.00",
+            "category": "E-Commerce & Retail",
+            "rating": 5
+        },
+        {
+            "title": "Bubbly – CMS & Dashboard Next.js Theme [React]",
+            "images": ["img/high/high-010.webp", "img/high/high-10.webp"],
+            "overlayText": "Live Preview",
+            "price": "$39.00",
+            "category": "Admin & Dashboard",
+            "rating": 5
+        },
+        {
+            "title": "Phoenix – Admin Dashboard & WebApp Template",
+            "images": ["img/high/high-011.webp", "img/high/high-11.webp"],
+            "overlayText": "Live Preview",
+            "price": "$39.00",
+            "category": "Admin & Dashboard",
+            "rating": 5
+        },
+        {
+            "title": "Touche – Cafe & Restaurant Theme",
+            "images": ["img/high/high-012.webp", "img/high/high-12.webp"],
+            "overlayText":"Live Preview",
+            "price" : "$39.00",
+            "rating": 5
+        },
+        {
+            "title": "Spark – Bootstrap 5 Admin & Dashboard Template",
+            "images": ["img/high/high-013.webp", "img/high/high-13.webp"],
+            "overlayText": "Live Preview",
+            "price": "$39.00",
+            "category": "Admin & Dashboard",
+            "rating": 5
+        },
+        {
+            "title": "Milo – Magazine/Blog Theme",
+            "images" : ["img/high/high-014.webp", "img/high/high-14.webp"],
+            "overlayText": "Live Preview",
+            "price": "$49.00",
+            "category": "Portfolio & Blog",
+            "rating": "5"
+        },
+        {
+            "title": "Maisonnette –  Responsive Admin Template",
+            "images": ["img/high/high-015.webp", "img/high/high-15.webp"],
+            "overlayText": "Live Preview",
+            "price": "$49.00",
+            "category": "Landing & Corporate",
+            "rating": 5
+        },
+        {
+            "title": "Maisonnette –  Responsive Admin Template",
+            "images": ["img/high/high-016.webp", "img/high/high-16.webp"],
+            "overlayText": "Live Preview",
+            "price": "$49.00",
+            "category": "Admin & Dashboard",
+            "rating": 0
+        }
     ]
-    
   }
 }

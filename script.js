@@ -5,13 +5,15 @@ const hamburger = document.querySelector(".hamber-burger");
 const navbarCollapse = document.querySelector(".collapse");
 const categoriesDropdown = document.getElementById("menu-top");
 const categoryListContainer = document.getElementById("catgories-list"); 
+
 hamburger.addEventListener("click", () => {
   navbarCollapse.classList.toggle("show");
 });
+
 console.log(data1);
 
 let showCategories = false;
-const categoriesData = data1
+const categoriesData = data1;
 
 categoriesData.categories.forEach((category) => {
   const categoryList = document.createElement("li");
@@ -19,16 +21,30 @@ categoriesData.categories.forEach((category) => {
   categoriesDropdown.appendChild(categoryList);
 });
 
-categoryListContainer.addEventListener("click", () => {
+categoryListContainer.addEventListener("click", (event) => {
+  event.stopPropagation(); 
   showCategories = !showCategories;
+  
   if (showCategories) {
     categoriesDropdown.classList.add("show-items");
     categoriesDropdown.classList.remove("hide-items");
+    categoryListContainer.style.color = "black"; 
   } else {
     categoriesDropdown.classList.add("hide-items");
     categoriesDropdown.classList.remove("show-items");
+    categoryListContainer.style.color = ""; 
   }
 });
+document.addEventListener("click", (event) => {
+  if (showCategories && !categoriesDropdown.contains(event.target) && !categoryListContainer.contains(event.target)) {
+    showCategories = false;
+    categoriesDropdown.classList.add("hide-items");
+    categoriesDropdown.classList.remove("show-items");
+    categoryListContainer.style.color = ""; 
+  }
+});
+
+
 
 
 // cards
@@ -100,12 +116,31 @@ function cards(option) {
         container.appendChild(listItems);
     });
   }
-  
-  document.querySelector('.sort').addEventListener("change", (event) => {
-    const selectedOption = event.target.value;
-    cards(selectedOption);
-  });
-  
-  cards("newness");
-  
  
+  document.querySelector('.form-control.input-text.form-arrow').addEventListener("change", (event) => {
+    const selectedOption = event.target.value;
+
+    localStorage.setItem("selectedSortOption", selectedOption);
+
+    cards(selectedOption);
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+    const dropdown = document.querySelector('.form-control.input-text.form-arrow');
+    const savedOption = localStorage.getItem("selectedSortOption") || "newness";
+
+    dropdown.value = savedOption;
+
+    console.log(`Dropdown value on load: ${dropdown.value}`);
+
+    cards(savedOption);
+});
+
+// document.querySelector('.sort').addEventListener("change", (event) => {
+//   const selectedOption = event.target.value;
+//   cards(selectedOption);
+// });
+
+// cards("newness");
+
+
