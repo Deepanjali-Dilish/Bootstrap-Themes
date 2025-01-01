@@ -664,6 +664,9 @@ P:last-child{
 .show-items{
     display: block;
 }
+.active-category{
+    color: rgba(0, 0, 0, 0.7);
+}
 .navbar-top-collapse li{
     background: none;
     border: 0;
@@ -698,20 +701,39 @@ P:last-child{
 .nav-link:hover{
     color: rgba(0, 0, 0, 0.7);
 }
-.nav-link .drop:focus{
-    color: rgba(0, 0, 0, 0.7);
-}
 #menu-top li:hover{
    color: rgba(0, 0, 0, 0.7);
 } 
-/* .nav-link.drop{
+.nav-link.drop:hover {
     color: rgba(0, 0, 0, 0.7);
+}
+  
+.nav-link.drop.active-link {
+    color: rgba(0, 0, 0, 0.9)
+}
+  
+.bootstrap-themes-icon-left-open::before{
+    content: '\e801';
+}
+
+[class^="bootstrap-themes-icon-"]{
+    font-family: "bootstrap-themes";
+    font-style: normal;
+    font-weight: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .2em;
+    -webkit-font-smoothing: antialiased;
 }
  /* json cards */
 
- 
 
-/*f*/
 @media screen and (min-width: 576px){
     .container{
         max-width: 540px;
@@ -855,14 +877,15 @@ P:last-child{
         align-items: center;
     }
  
-    /* .form-inline{
+    .form-inline{
         position: relative;
         transition: transform 250ms ease-in-out;
     }
 
     .form-inline.move-left{
         transform: translateX(-100px);
-    } */
+    }
+
 
     .bar-2{
         margin-bottom: 0;
@@ -886,7 +909,7 @@ P:last-child{
         order: 2;
     }
     .form-navbar .form-input{
-        /* position : absolute; */
+        position : relative;
         z-index: 10;
         border-color: transparent;
         width: 30px;
@@ -895,12 +918,15 @@ P:last-child{
         transition: all 250ms ease-in-out;
     }
 
-    /* .form-navbar .form-input:focus{
-        width: 200px;
-    } */
+    .form-navbar .form-input:focus{
+        width: 80px;
+    } 
     .form-inline .form-input{
         display: inline-block;
         vertical-align: middle;
+    }
+    .nav-link .sign {
+        padding-left: 25px;
     }
     .navbar-expand .navbar-nav{
         flex-direction: row;

@@ -1,7 +1,40 @@
 {
-    "pagination": {
-      "currentPage": 1,
-      "totalPages": 6
-  }
-  }
-  
+  "pagination": {
+    "page1": [
+      {
+        "title": "FreshCart – Next Js eCommerce Website Template",
+        "images": ["img/new/caed.jpg", "img/new/card3.webp"],
+        "overlayText" : "Live Preview",
+        "price": "$49.00",
+        "category": "E-Commerce & Retail",
+        "rating": 0
+    },
+    {
+        "title": "Dashbrd – Admin Dashboard Template",
+        "images": ["img/new/card2.webp", "img/new/card02.webp"],
+        "overlayText":"Live Preview",
+        "price": "$49.00",
+        "category": "Admin & Dashboard",
+        "rating": 0
+    }
+  ],
+  "page2": [
+      {
+        "title": "FreshCart – Next Js eCommerce Website Template",
+        "images": ["img/new/caed.jpg", "img/new/card3.webp"],
+        "overlayText" : "Live Preview",
+        "price": "$49.00",
+        "category": "E-Commerce & Retail",
+        "rating": 0
+    },
+    {
+        "title": "Dashbrd – Admin Dashboard Template",
+        "images": ["img/new/card2.webp", "img/new/card02.webp"],
+        "overlayText":"Live Preview",
+        "price": "$49.00",
+        "category": "Admin & Dashboard",
+        "rating": 0
+    }
+  ]
+ }
+}
