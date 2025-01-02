@@ -522,6 +522,60 @@
             "category": "Admin & Dashboard",
             "rating": 0
         }
+    ],
+
+    "price-high": [
+        {
+            "title" : "Soft UI Design System Pro",
+            "images": ["img/low/low-01.webp", "img/low/low-1.webp"],
+            "overlayText" : "Live Preview",
+            "price": "$79.00",
+            "category": "Landing & Corporate",
+            "rating": 5
+        },
+        {
+            "title": "Spaces – Listings Map Bootstrap + Dashboard Theme",
+            "images": ["img/low/low-02.webp", "img/low/low-2.webp"],
+            "overlayText": "Live Preview",
+            "price": "$79.00",
+            "category": "Admin & Dashboard",
+            "rating": 5
+        },
+        {
+            "title": "Material Kit PRO – Bootstrap 4 Material Design UI",
+            "images": ["img/low/low-03.webp", "img/low/low-3.webp"],
+            "overlayText": "Liev Preview",
+            "price": "$79.00",
+            "category" :"E-Commerce & Retail",
+            "rating": 5
+        },
+        {
+            "title": "Rocket – Startup Bootstrap Front + Dashboard Theme",
+            "images": ["img/low/low-04.webp", "img/low/low-4.webp"],
+            "overlayText": "Live Preview",
+            "category": "Landing & Corporate",
+            "price": "$69.00",
+            "rating": 4
+        },
+        {
+            "title": "Now UI Kit PRO – Premium Bootstrap 4 Web Kit",
+            "images": ["img/low/low-05.webp", "img/low/low-5.webp"],
+            "overlayText": "Live Preview",
+            "price": "$69.00",
+            "category": "Portfolio & Blog",
+            "rating": 5
+        },
+        {
+            "title": "Soft UI Dashboard Pro",
+            "images": ["img/low/low-06.webp", "img/low/low-6.webp"],
+            "overlayText": "Live Preview",
+            "price": "$59.00",
+            "category": "Admin & Dashboard",
+            "rating": "4"
+        }
+        
+       
     ]
-  }
-}
+
+ }
+} 

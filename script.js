@@ -137,22 +137,21 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-  const searchInput = document.querySelector(".form-input"); // Target the input element
+  const searchInput = document.querySelector(".form-input"); 
   const form = document.querySelector(".form-inline");
 
   searchInput.addEventListener("focus", () => {
-      form.classList.add("move-left"); // Add the transition class
+      form.classList.add("move-left"); 
 
-      // Automatically hide the input after 3 seconds (3000 ms)
-      setTimeout(() => {
-          form.classList.remove("move-left"); // Remove the transition class
-          searchInput.style.display = "none"; // Hide the input
-      }, 3000); // Adjust the delay as needed
+      // setTimeout(() => {
+      //     form.classList.remove("move-left"); 
+      //     searchInput.style.display = "none"; 
+      // }, 1000); 
   });
 
   searchInput.addEventListener("blur", () => {
-      form.classList.remove("move-left"); // Reset the transition class
-      searchInput.style.display = ""; // Restore the input display
+      form.classList.remove("move-left"); 
+      searchInput.style.display = ""; 
   });
 });
 
@@ -246,18 +245,18 @@ document.addEventListener("DOMContentLoaded", () => {
 // document.addEventListener('DOMContentLoaded', () => {
 //   const savedPage = localStorage.getItem('selectedPage') || '1';
 
-//   // Load the saved page
+//   
 //   cardse(`page${savedPage}`);
 
-//   // Set active class for the saved page
+//   
 //   const activePageLink = document.querySelector(`.page-numbers:contains("${savedPage}")`);
 //   if (activePageLink) {
 //     activePageLink.parentElement.classList.add('active');
 //   }
 
-//   // Initialize pagination event handlers
+//  
 //   handlePagination();
 // });
 
 
-
+// 
