@@ -7,7 +7,7 @@
         "overlayText" : "Live Preview",
         "price": "$49.00",
         "category": "E-Commerce & Retail",
-        "rating": 0
+        "rating": 5
     },
     {
         "title": "Dashbrd – Admin Dashboard Template",
@@ -572,8 +572,87 @@
             "price": "$59.00",
             "category": "Admin & Dashboard",
             "rating": "4"
+        },
+        {
+            "title" : "Spark – Admin & Dashboard Template [ReactJS]",
+            "images": ["img/low/low-07.webp", "img/low/low-7.webp"],
+            "overlayText": "Live Preview",
+            "price": "$59.00",
+            "category": "Admin & Dashboard",
+            "rating": "4"
+        },
+        {
+            "title": "AppStack – Admin & Dashboard Template [React]",
+            "images": ["img/low/low-08.webp", "img/low/low-8.webp"],
+            "overlayText": "Live Preview",
+            "price": "$59.00",
+            "category": "Admin & Dashboard",
+            "rating": 5
+        },
+        {
+            "title": "Sparrow – Simple. Seamless. Alive!",
+            "images": ["img/low/low-09.webp", "img/low/low-9.webp"],
+            "overlayText": "Live Preview",
+            "price": "$59.00",
+            "category": "Landing & Corporate",
+            "rating": 5
+        },
+        {
+            "title": "FreshCart – Next Js eCommerce Website Template",
+            "images": ["img/low/low-010.webp", "img/low/low-10.webp"],
+            "overlayText": "Live Preview",
+            "price":"$49.00",
+            "category": "Admin & Dashboard",
+            "rating": 5
+        },
+        {
+            "title": "Dashbrd – Admin Dashboard Template",
+            "images": ["img/low/low-011.webp", "img/low/low-11.webp"],
+            "overlayText": "Live Preview",
+            "price": "$49.00",
+            "category": "Admin & Dashboard",
+            "rating": 0
+        },
+        {
+            "title": "Mizzle – Technology and Corporate Bootstrap Theme",
+            "images": ["img/low/low-012.webp", "img/low/low-12.webp"],
+            "overlayText": "Live Preview",
+            "price": "$49.00",
+            "category": "Landing & Corporate",
+            "rating": 5
+        },
+        {
+            "title": "Block – Business / Professional HTML Template",
+            "images": ["img/low/low-013.webp", "img/low/low-13.webp"],
+            "overlayText": "Live Preview",
+            "price": "$49.00",
+            "category": "Landing & Corporate",
+            "rating": 5
+        },
+        {
+            "title" : "Themebau – Portfolio & Agency Template [React]",
+            "images": ["img/low/low-014.webp", "img/low/low-14.webp"],
+            "overlayText": "Live Preview",
+            "price": "$49.00",
+            "category": "Portfolio & Blog",
+            "rating": 4
+        },
+        {
+            "title": "Phoenix – Admin Dashboard & WebApp Template[React]",
+            "images": ["img/low/low-015.webp", "img/low/low-15.webp"],
+            "overlayText": "Live Preview",
+            "price": "$49.00",
+            "category": "Admin & Dashboard",
+            "rating": 5
+        },
+        {
+            "title": "Satoshi – Web3 and Finance Dashboard Theme",
+            "images": ["img/low/low-016.webp", "img/low/low-16.webp"],
+            "overlayText": "Live Preview",
+            "price": "$49.00",
+            "category": "Admin & Dashboard",
+            "rating": 1
         }
-        
        
     ]
 

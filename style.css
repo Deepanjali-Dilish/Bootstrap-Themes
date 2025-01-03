@@ -62,7 +62,7 @@ body{
 } */
 
 .main-header .hamber{
-    background-image: url(img/download.svg);
+    background-image: url(img/down/hamber.svg);
    
 }
 .hamber{
@@ -154,7 +154,7 @@ body{
 }
 
 .form-control.form-arrow{
-    background-image: url(img/download\ \(1\).svg);
+    background-image: url(img/down/downarow.svg);
     background-size: 10px 10px;
     background-repeat: no-repeat;
     background-position: right 10px center;
@@ -1025,7 +1025,7 @@ P:last-child{
         margin-left: 15px;
         margin-right: 15px;
     }
-   
+
      
 
 
@@ -1084,6 +1084,14 @@ P:last-child{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .theme-card-footer-item > *:not(:last-child){
+        margin-bottom: .3rem;
+    }
+    .theme-card-price{
+        margin-top: 0;
     }
     .header-content{
         margin-left: 90px;
@@ -1101,6 +1109,10 @@ P:last-child{
     }
     .btns{
         padding: 10.5px 27px;
+    }
+
+    .nav-link .gap{
+        padding-left: 0;
     }
    
 }

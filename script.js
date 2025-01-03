@@ -45,8 +45,6 @@ document.addEventListener("click", (event) => {
 });
 
 
-
-
 // cards
 
 import data2 from "./data/cards.json" with{type: 'json'}
@@ -155,7 +153,10 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+
 // import page from "./data/pagination.json" with{type: 'json'}
+// import page from "./data/page.json" with{type: 'json}
+// import page from "./data/page.json" with{type: 'json}
 
 // const pages = page
 // console.log(pages)
@@ -221,6 +222,7 @@ document.addEventListener("DOMContentLoaded", () => {
 //   });
 // }
 
+
 // function handlePagination() {
 //   const paginationLinks = document.querySelectorAll('.pagination .page-item a.page-numbers');
 
@@ -248,7 +250,16 @@ document.addEventListener("DOMContentLoaded", () => {
 //   
 //   cardse(`page${savedPage}`);
 
-//   
+//   cardse(`pages{savedPage})
+//   const activepagelink = document.qureySelector('.pagination .page-item). forEach(item => {
+
+    // if(activepagelink.length > 0){
+
+     // if (activepagelink){
+        // activeLInk.parentElement.classList.add('active)
+     //}
+    //}
+  //})
 //   const activePageLink = document.querySelector(`.page-numbers:contains("${savedPage}")`);
 //   if (activePageLink) {
 //     activePageLink.parentElement.classList.add('active');
@@ -258,5 +269,3 @@ document.addEventListener("DOMContentLoaded", () => {
 //   handlePagination();
 // });
 
-
-// 
