@@ -7,7 +7,6 @@
 body{
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     background-color: #fff;
-    /* overflow: hidden; */
 }
 
 @font-face {
@@ -16,7 +15,6 @@ body{
 }
 .main-header{
     position: relative;
-    /* display: flex; */
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
@@ -57,9 +55,6 @@ body{
     white-space: nowrap;
     outline: none;
 }
-/* .header-space{
-    margin-left: 109.328px;
-} */
 
 .main-header .hamber{
     background-image: url(img/down/hamber.svg);
@@ -97,13 +92,6 @@ body{
     padding-left: 15px;
     width: 100%;
 }
-
-/* .row{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -15px;
-    margin-left: -15px;
-} */
 
 .now{
     
@@ -178,8 +166,6 @@ ul.cards{
 .cards{
     display: flex;
     flex-wrap: wrap;
-    /* padding-right: 15px;
-    padding-left: 15px; */
     margin-right: -15px;
     margin-left: -15px;
 }
@@ -250,9 +236,6 @@ a{
     margin: 0px 3.75px 1.5px 0px;
 
 }
-/* .theme-card img .theme-card .theme-card__img{
-    width: 100%;
-} */
 .theme-card img, .theme-card .theme-card__img{
     width: 100% 
 }
@@ -345,7 +328,6 @@ P:last-child{
     font-family: "boot";
     font-style: normal;
     font-weight: normal;
-    /* speak: none; */
     display: inline-block;
     text-decoration: inherit;
     width: 1em;
@@ -368,11 +350,7 @@ P:last-child{
     padding-bottom: 15px;
     margin-bottom: 20px;
 }
-/* .foot{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} */
+
 .form-group{
     margin-bottom: 1.5rem;
 }
@@ -401,10 +379,7 @@ P:last-child{
     width: 100%;
     margin-right: 0.5rem;
 }
-/* .mail{
-    position: absolute;
-    left: -5000px;
-} */
+
 .form-control--muted{
     background: #edf0f5;
     border-color: #edf0f5;
@@ -463,10 +438,6 @@ P:last-child{
     line-height: 1.5;
     border-radius: 0.2rem;
 }
-/* a:hover, a:focus, a:visited{
-    outline: none;
-    outline-offset: 0;
-} */
 .theme-card-body:hover .theme-card-overlay{
     opacity: 1;
     visibility: visible;
@@ -492,12 +463,8 @@ P:last-child{
     font-weight: 400;
     line-height: 17.5px;
 }
- /* .footer-items{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
- } */
- .nav{
+ 
+.nav{
     display: flex;
     padding-left: 0;
     margin-bottom: 0;
@@ -527,9 +494,6 @@ P:last-child{
 .footer-sub-nav li:first-child{
     padding-left: 0;
 }
-/* .navbar-collapse{
-    display: none;
-} */
 .rating{
     display: none;
 }
@@ -617,12 +581,6 @@ P:last-child{
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
 }
-/* .nav-link{
-    border-bottom: 1px solid #e5e9ef;
-} */
-/* .navbar:not(.navbar-preview) .dropdown-toggle:after{
-    content: none;
-} */
 
 .drop:after{
     font-family: "boot";
@@ -636,13 +594,7 @@ P:last-child{
     width: 0;
     height: 0;
     margin-left: 0.255em;
-    /* vertical-align: 0.255em;
-    content: "";
-    border-top: 0.3em solid;
-    border-right: 0.3em solid transparent;
-    border-left: 0.3em solid transparent; */
 }
-/*  */
 
 .dropdown-menu.show{
     display: block;
@@ -707,9 +659,6 @@ P:last-child{
     color: rgba(0,0,0,0.7);
 }
 
-/* .nav-light .navbar-nav .nav-link:hover{
-    color: rgba(0,0,0,0.7);
-}  */
 .nav-link:hover{
     color: rgba(0, 0, 0, 0.7);
 }
@@ -743,9 +692,7 @@ P:last-child{
     margin-left: .2em;
     -webkit-font-smoothing: antialiased;
 }
- /* json cards */
-
-
+ 
 @media screen and (min-width: 576px){
     .container{
         max-width: 540px;
@@ -906,8 +853,9 @@ P:last-child{
         content: '\e805';
         z-index: 1;
         position: absolute;
-        left: 3px;
+        left: 8px;
         top: 50%;
+        font-size: 15px;
         color: #cccccc;
         transform: translateY(-50%);
     }
@@ -928,6 +876,7 @@ P:last-child{
         padding-right: 0;
         transition: all 250ms ease-in-out;
     }
+    
     .nav-link .space{
         padding-left: 30px;
     }
@@ -967,13 +916,9 @@ P:last-child{
         padding: 0.5rem 1rem;
     }
     .navbar-expand .navbar-nav .nav-link{
-        padding-right: .5rem;
-        padding-left: .5rem;
+        padding-right: 7.500px;
+        padding-left: 7.500px;
     }
-    /* .navbar-light .navbar-nav .nav-link{
-        color: #838e95;
-        font-size: 16px;
-    } */
     .nav-link{
         color: #838e95;
         font-family: inherit;
@@ -983,7 +928,7 @@ P:last-child{
         line-height: 24px;
     } 
     .ml-2{
-        margin-left: 4.5rem;
+        margin-left: 71.5px;
     }
     .order-3{
         -webkit-box-ordinal-group: 4;
@@ -1025,34 +970,8 @@ P:last-child{
         margin-left: 15px;
         margin-right: 15px;
     }
-
-     
-
-
-
-
-    /*.navbar:not(.navbar-preview) .dropdown-toggle:after{
-        content: none;
-    }
-    .dropdown-toggle:after{
-        font-size: "boot";
-        content: '\e800';
-        border: none;
-        vertical-align: baseline;
-        margin-right: 1.5em;
-    }
-    .dropdown-toggle:after{
-        display: inline-block;
-        width: 0;
-        height: 0;
-        margin-left: 0.255em;
-        vertical-align: 0.255em;
-        content: "";
-        border-top: 0.3em solid;
-        border-right: 0.3em solid transparent;
-        border-left: 0.3em solid transparent;
-    } */
 }
+
 @media screen and (min-width: 1200px){
     .container{
         max-width: 1140px;
@@ -1064,16 +983,10 @@ P:last-child{
 }
 
 @media screen and (min-width: 1330px) {
-    /* .container{
-        max-width: 85%;
-    } */
     .navbar-expand #menu-top{
         position: absolute;
         top: 40px;
     }
-    /* .main-header{
-        height: 56px;
-    }     */
     .nav-all{
         margin-right: 468.24px;
     }
@@ -1094,8 +1007,10 @@ P:last-child{
         margin-top: 0;
     }
     .header-content{
-        margin-left: 90px;
-        margin-right: 90px;
+        margin-left:96px;
+        margin-right: 96px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .drop:after{
         content: none;
@@ -1114,23 +1029,20 @@ P:last-child{
     .nav-link .gap{
         padding-left: 0;
     }
-   
+    .main-header{
+        padding-top: 7.5px;
+        padding-bottom: 7.5px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .archive .main > .section {
+        padding-top: 2rem;
+    }
+   .archive-title{
+        padding: 0px 0px 12px;
+        margin: 0px 0px 30.5px;
+   }
+   .boot{
+     padding-bottom: 7.5px;
+   }
 }
-
-/* @media screen and (min-width: 1440px){
-    .container{
-        margin-left: 150px;
-        margin-right: 150px;
-    }
-    .header-content{
-        margin-right: 63px;
-        margin-left: 130px;
-    }
-    .nav-all{
-        margin-right: 552.24px;
-    }
-} */
-
-/*  */
-
-
