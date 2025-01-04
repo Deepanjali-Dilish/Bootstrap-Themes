@@ -692,7 +692,19 @@ P:last-child{
     margin-left: .2em;
     -webkit-font-smoothing: antialiased;
 }
- 
+
+.hide {
+    display: none;
+}
+  
+.show {
+    display: block;
+}
+  
+.hamber-burger.d-none {
+    display: none;
+}
+
 @media screen and (min-width: 576px){
     .container{
         max-width: 540px;
@@ -1046,4 +1058,3 @@ P:last-child{
      padding-bottom: 7.5px;
    }
 }
- 

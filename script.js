@@ -18,6 +18,7 @@ const visibility = () => {
 
     hamburger.classList.remove("d-none");
     navbarCollapse.classList.add("hide"); 
+    navbarCollapse.classList.remove("show")
   } else {
   
     hamburger.classList.add("d-none");
