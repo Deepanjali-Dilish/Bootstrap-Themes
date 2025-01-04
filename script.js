@@ -10,7 +10,25 @@ const navLinkDrop = document.getElementById("navbardropmenu");
 
 hamburger.addEventListener("click", () => {
   navbarCollapse.classList.toggle("show");
+  navbarCollapse.classList.toggle("hide");
 });
+
+const visibility = () => {
+  if (window.innerWidth <= 768) {
+
+    hamburger.classList.remove("d-none");
+    navbarCollapse.classList.add("hide"); 
+  } else {
+  
+    hamburger.classList.add("d-none");
+    navbarCollapse.classList.remove("show");
+    navbarCollapse.classList.remove("hide");
+  }
+};
+
+window.addEventListener("resize", visibility);
+visibility(); 
+
 
 console.log(data1);
 
