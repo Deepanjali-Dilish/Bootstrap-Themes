@@ -1,7 +1,5 @@
-// Dynamic JSON loading using fetch
 let data1, data2;
 
-// Function to load JSON files
 async function loadJSON() {
   try {
     const categoriesResponse = await fetch('./data/categories.json');
@@ -11,14 +9,12 @@ async function loadJSON() {
       throw new Error('Failed to load JSON files');
     }
 
-    // Parse JSON data
     data1 = await categoriesResponse.json();
     data2 = await cardsResponse.json();
 
     console.log('Categories Data:', data1);
     console.log('Cards Data:', data2);
 
-    // Initialize categories and cards
     initializeCategories();
     initializeCards();
   } catch (error) {
@@ -26,7 +22,6 @@ async function loadJSON() {
   }
 }
 
-// Navbar Toggle
 const hamburger = document.querySelector('.hamber-burger');
 const navbarCollapse = document.querySelector('.collapse');
 const categoriesDropdown = document.getElementById('menu-top');
@@ -38,7 +33,7 @@ hamburger.addEventListener('click', () => {
   navbarCollapse.classList.toggle('hide');
 });
 
-// Handle responsive visibility
+// Hamber burger functionality
 const visibility = () => {
   if (window.innerWidth <= 768) {
     hamburger.classList.remove('d-none');
@@ -181,7 +176,6 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-// Load JSON and initialize everything
 document.addEventListener('DOMContentLoaded', () => {
   loadJSON();
 });
