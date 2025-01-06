@@ -1058,3 +1058,18 @@ P:last-child{
      padding-bottom: 7.5px;
    }
 }
+
+
+@media screen and (min-width: 1440px){
+    .header-content{
+        margin-left: 135px;
+        margin-right: 135px;
+    }
+}
+
+@media screen and (min-width: 2560px){
+    .header-content{
+        margin-left: 695px;
+        margin-right: 695px;
+    }
+}
